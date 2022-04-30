@@ -9,7 +9,7 @@ transformers=4.10.0\
 tqdm=4.62.2
 
 # Citation
-The initial DeBERTaV3:\
+The initial DeBERTaV3:
 ```bib
 @misc{he2021debertav3,
       title={DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing}, 

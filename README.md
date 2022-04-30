@@ -18,7 +18,7 @@ transformers=4.10.0\
 tqdm=4.62.2
 
 # Citation
-[Source](https://home.ttic.edu/~kgimpel/commonsense.html) of CommonsenseQA 
+[Source](https://www.tau-nlp.org/commonsenseqa) of CommonsenseQA 
 
 The initial DeBERTaV3:
 ```bib

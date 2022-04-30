@@ -1,4 +1,4 @@
-# CSQA_DeBERTaV3
+# Solution of DeBERTaV3 on CommonsenseQA
 The implementation of DeBERTaV3-based commonsense question answering on CommonsenseQA.
 
 # Environment

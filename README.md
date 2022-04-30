@@ -13,6 +13,8 @@ The implementation of DeBERTaV3-based commonsense question answering on Commonse
 **CommonsenseQA 2.0**
 | Method            |  Single |
 | ----------------- | :-----: |
+| `deberta-base`    |  55.1   |
+| `deberta-large`   |  52.5   |
 | `debertav3-base`  |  56.9   |
 | `debertav3-large` |  66.0   |
 

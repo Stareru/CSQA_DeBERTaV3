@@ -24,7 +24,8 @@ transformers=4.10.0\
 tqdm=4.62.2
 
 # Source and Citation
-[Source](https://www.tau-nlp.org/commonsenseqa) of CommonsenseQA 
+[Source](https://www.tau-nlp.org/commonsenseqa) of CommonsenseQA 1.0\
+[Source](https://allenai.github.io/csqa2/) of CommonsenseQA 2.0
 
 The initial DeBERTaV3:
 ```bib

@@ -1,5 +1,18 @@
 # Solution of DeBERTaV3 on CommonsenseQA
-The implementation of DeBERTaV3-based commonsense question answering on CommonsenseQA.
+
+The implementation of DeBERTaV3-based commonsense question answering on CommonsenseQA. 
+
+[DeBERTa](https://arxiv.org/abs/2111.09543) is a pre-trained language model with an enhanced decoding procedure. [DeBERTaV3](https://openreview.net/forum?id=XPZIaotutsD) refines the training process by replacing the initial training objective, masked language modeling, with replaced token detection. 
+
+We formalize the question selection as a text classification by transforming a question-answer pair into the following prompt. 
+
+```Q [SEP] A.```
+
+where Q, A, \[SEP\] refer to the question, answer and separation token. For instance,
+
+```Where can you find all of space? [SEP] Universe.```
+
+We use a text classifier with DebertaV3 as the backbone to score the prompt. We score the five answer candidates of a question and use cross-entropy loss with the correct label as the objective to train the model.
 
 # Performance
 **CommonsenseQA 1.0**

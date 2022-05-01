@@ -28,8 +28,8 @@ We use a text classifier with DebertaV3 as the backbone to score the prompt. We 
 | ----------------- | :-----: |
 | `deberta-base`    |  55.1   |
 | `deberta-large`   |  52.5   |
-| `debertav3-base`  |  56.9   |
-| `debertav3-large` |  66.0   |
+| `debertav3-base`  |  56.8   |
+| `debertav3-large` |  68.2   |
 
 # Environment
 python=3.8.5\

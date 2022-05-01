@@ -163,7 +163,7 @@ def read(fname, ftype):
         if quest[-1] not in ['.', '?']:
             quest += '.'
 
-        choices = ["yes.", "no."]
+        choices = ["Yes.", "No."]
 
         quests = [quest for choice in choices]
 

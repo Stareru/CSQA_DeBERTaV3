@@ -26,8 +26,8 @@ We use a text classifier with DebertaV3 as the backbone to score the prompt. We 
 **CommonsenseQA 2.0**
 | Method            |  Single |
 | ----------------- | :-----: |
-| `deberta-base`    |  55.1   |
-| `deberta-large`   |  52.5   |
+| `deberta-base`    |  52.0   |
+| `deberta-large`   |  53.3   |
 | `debertav3-base`  |  56.8   |
 | `debertav3-large` |  68.2   |
 
